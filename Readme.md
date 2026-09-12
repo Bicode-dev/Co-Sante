@@ -85,6 +85,8 @@ Ce sont des données de santé, et elles sont traitées comme telles :
 
 - **Aucun compte**, aucun serveur, aucune publicité, aucune télémétrie.
 - Tout est stocké **sur votre téléphone, chiffré**.
+- La seule connexion sortante est la **vérification des mises à jour** sur
+  GitHub, au lancement. Rien de ce que vous saisissez ne la traverse.
 - Vous pouvez consulter, exporter et supprimer l'ensemble de vos données depuis
   les paramètres, à tout moment.
 - L'application dit toujours d'où vient une valeur : saisie par vous, estimée,
@@ -106,7 +108,12 @@ s'arrêtera là.
 
 Android uniquement. L'application se distribue par APK depuis les
 [releases GitHub](../../releases), ou en un clic depuis **Co-Menu**, la
-bibliothèque d'applications de Bicode_DEV, qui gère aussi les mises à jour.
+bibliothèque d'applications de Bicode_DEV.
+
+Les mises à jour sont proposées par l'application elle-même au lancement. Les
+correctifs sont recommandés ; une version majeure doit être installée dans les
+trois jours qui suivent sa publication, la date est affichée dès la première
+proposition.
 
 Android demandera de confirmer une installation venant d'une source extérieure
 au Play Store : c'est attendu.
